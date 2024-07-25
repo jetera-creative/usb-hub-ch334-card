@@ -206,10 +206,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "USB*")
 		(path "/120072ad-cdac-47bf-a8e4-4476974f24fa")
-		(sheetname "Root")
-		(sheetfile "usb-hub-ch334-card.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -3.75 12.99)
@@ -676,10 +673,10 @@
 			(pintype "power_in")
 			(uuid "f310ff55-d810-4caf-86ab-5d1f5c0ebd30")
 		)
-		(pad "5" thru_hole circle
+		(pad "5" thru_hole oval
 			(at -3.07 2.71 270)
-			(size 3 3)
-			(drill 2.3)
+			(size 2 3)
+			(drill oval 1 2.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -687,10 +684,10 @@
 			(pintype "passive")
 			(uuid "4c049eba-56c0-4f79-b4b1-1eea9c645a26")
 		)
-		(pad "5" thru_hole circle
+		(pad "5" thru_hole oval
 			(at 10.07 2.71 270)
-			(size 3 3)
-			(drill 2.3)
+			(size 2 3)
+			(drill oval 1 2.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -728,7 +725,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "9da76cb1-ba51-4cf9-a138-3332f3f40992")
 			(effects
@@ -880,7 +877,7 @@
 			(uuid "7f5c8bac-f1aa-46d1-9329-c010448f5afc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a7279338-86e6-459a-81f9-efbb9e3e0629")
 			(effects
@@ -1455,10 +1452,10 @@
 			(pintype "power_in")
 			(uuid "42cf4b5d-241c-41a5-9261-6bdbaaa448e5")
 		)
-		(pad "5" thru_hole circle
+		(pad "5" thru_hole oval
 			(at -3.07 2.71 180)
-			(size 3 3)
-			(drill 2.3)
+			(size 2 3)
+			(drill oval 1 2.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -1466,10 +1463,10 @@
 			(pintype "passive")
 			(uuid "ce0ef656-ed66-4eb0-9f2e-90cfea894e0e")
 		)
-		(pad "5" thru_hole circle
+		(pad "5" thru_hole oval
 			(at 10.07 2.71 180)
-			(size 3 3)
-			(drill 2.3)
+			(size 2 3)
+			(drill oval 1 2.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -1496,7 +1493,7 @@
 		(descr "QSOP, 16 Pin (https://pdfserv.maximintegrated.com/package_dwgs/21-0055.PDF), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "QSOP SO")
 		(property "Reference" "U1"
-			(at -3 3.4 270)
+			(at -3 3.4 -90)
 			(layer "F.SilkS")
 			(uuid "5a141790-3dca-4bb5-aab2-d82017ae2bb2")
 			(effects
@@ -1507,7 +1504,7 @@
 			)
 		)
 		(property "Value" "CH334R"
-			(at 0 3.4 270)
+			(at 0 3.4 -90)
 			(layer "F.Fab")
 			(uuid "96a76eac-0d6a-492c-8a9b-da9849fa5128")
 			(effects
@@ -1700,7 +1697,7 @@
 			(uuid "2ecbe885-a8b9-4084-96d5-8b28245f60cb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "cb8d9012-cc32-4aab-b7fe-92b8c987e8b0")
 			(effects
@@ -1889,7 +1886,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
 		(property "Reference" "C1"
-			(at 1.25 3.6 360)
+			(at 1.25 3.6 0)
 			(layer "F.SilkS")
 			(uuid "f8d5811a-0031-430b-a1a9-283a7ee50c30")
 			(effects
@@ -1900,7 +1897,7 @@
 			)
 		)
 		(property "Value" "270uF"
-			(at 1.25 3.75 360)
+			(at 1.25 3.75 0)
 			(layer "F.Fab")
 			(uuid "954a1669-0aa0-417c-9dbb-9dc2733b2124")
 			(effects
@@ -3205,7 +3202,7 @@
 			(uuid "c8fc52da-b734-43d7-8a4c-53dcf64d5b84")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 360)
+			(at 1.25 0 0)
 			(layer "F.Fab")
 			(uuid "b91b3b1f-d4b3-49fb-a602-d7932a7eb4e1")
 			(effects
@@ -3782,10 +3779,10 @@
 			(pintype "power_in")
 			(uuid "b1a0a192-c59d-447a-b28a-1ad56e3e72c5")
 		)
-		(pad "5" thru_hole circle
+		(pad "5" thru_hole oval
 			(at -3.07 2.71 180)
-			(size 3 3)
-			(drill 2.3)
+			(size 2 3)
+			(drill oval 1 2.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -3793,10 +3790,10 @@
 			(pintype "passive")
 			(uuid "72429ba4-34d5-4c61-bbf0-764fc74692f7")
 		)
-		(pad "5" thru_hole circle
+		(pad "5" thru_hole oval
 			(at 10.07 2.71 180)
-			(size 3 3)
-			(drill 2.3)
+			(size 2 3)
+			(drill oval 1 2.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -3881,10 +3878,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "USB*")
 		(path "/8ed40f14-1d53-46ba-80cc-8040fd62f28f")
-		(sheetname "Root")
-		(sheetfile "usb-hub-ch334-card.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 10.75 12.99)
@@ -4351,10 +4345,10 @@
 			(pintype "power_in")
 			(uuid "663c74e4-4eca-42b0-9c88-ff8566168e5d")
 		)
-		(pad "5" thru_hole circle
+		(pad "5" thru_hole oval
 			(at -3.07 2.71 180)
-			(size 3 3)
-			(drill 2.3)
+			(size 2 3)
+			(drill oval 1 2.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -4362,10 +4356,10 @@
 			(pintype "passive")
 			(uuid "ccf373e0-16f2-41f4-a597-f3c655f83d29")
 		)
-		(pad "5" thru_hole circle
+		(pad "5" thru_hole oval
 			(at 10.07 2.71 180)
-			(size 3 3)
-			(drill 2.3)
+			(size 2 3)
+			(drill oval 1 2.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -5051,7 +5045,7 @@
 		(descr "SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package")
 		(tags "SMD SMT crystal")
 		(property "Reference" "Y1"
-			(at 0 -2.45 270)
+			(at 0 -2.45 -90)
 			(layer "F.SilkS")
 			(uuid "55ef0309-1b7d-4b48-b57f-381834687aed")
 			(effects
@@ -5062,7 +5056,7 @@
 			)
 		)
 		(property "Value" "12MHz"
-			(at 0 2.45 270)
+			(at 0 2.45 -90)
 			(layer "F.Fab")
 			(uuid "ad0bd258-99e1-4e1e-bff8-61fd4dd80f54")
 			(effects
@@ -5224,7 +5218,7 @@
 			(uuid "6ad6aea6-61e4-483e-bf07-8b99e167c968")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "c40ccbd3-52e5-42ee-af54-929ca9271128")
 			(effects
